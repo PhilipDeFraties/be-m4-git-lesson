@@ -7,4 +7,5 @@ class ItemsController < ApplicationController
   def show
     @item = Item.find(params[:id])
   end
+  #new line 2nd commit
 end
